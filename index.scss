@@ -1,0 +1,50 @@
+@mixin theme($theme: RemoveMarcadores){
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+section{
+    margin-top: 8rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.titulo_accordion{
+    width: 20rem;
+    box-shadow: 3px 6px 5px rgba(38, 38, 38, 0.236);
+    
+    margin: auto;
+    text-align: center;
+    border-radius: 0.6rem;
+
+}
+
+.accordion{
+    margin: auto;
+    width: 30rem;
+    padding: 2rem;
+}
+
+.accordion-body{
+    ul{
+        @include theme($theme:RemoveMarcadores);
+
+        li{
+            padding: 0.5rem;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: cadetblue;
+        }
+    }
+}
+

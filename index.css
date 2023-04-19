@@ -1,0 +1,38 @@
+section {
+  margin-top: 8rem;
+}
+
+footer {
+  text-align: center;
+}
+
+.titulo_accordion {
+  width: 20rem;
+  -webkit-box-shadow: 3px 6px 5px rgba(38, 38, 38, 0.236);
+          box-shadow: 3px 6px 5px rgba(38, 38, 38, 0.236);
+  margin: auto;
+  text-align: center;
+  border-radius: 0.6rem;
+}
+
+.accordion {
+  margin: auto;
+  width: 30rem;
+  padding: 2rem;
+}
+
+.accordion-body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.accordion-body ul li {
+  padding: 0.5rem;
+}
+.accordion-body ul a {
+  text-decoration: none;
+  color: black;
+}
+.accordion-body ul a:hover {
+  color: cadetblue;
+}
