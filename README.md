@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/accordion.png)
+![](imagens/accordion.png)
 
 
 ## My process
